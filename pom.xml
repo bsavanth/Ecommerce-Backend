@@ -14,7 +14,7 @@
     <name>spring-boot-ecommerce</name>
     <description>Spring boot Ecommerce project</description>
     <properties>
-        <java.version>8</java.version>
+        <java.version>18</java.version>
     </properties>
     <dependencies>
         <dependency>
