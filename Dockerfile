@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/ecomjenkins.jar ecomjenkins.jar
-ENTRYPOINT ["java", "-jar", "/ecomjenkins.jar"]
+ADD target/spring-boot-ecommerce-0.0.1-SNAPSHOT.jar spring-boot-ecommerce-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java", "-jar", "/spring-boot-ecommerce-0.0.1-SNAPSHOT.jar"]
